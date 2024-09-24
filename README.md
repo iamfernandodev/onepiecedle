@@ -1,11 +1,11 @@
 # 🏴‍☠️ Onepiecedle
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Backend](#backend)
-- [Frontend](#frontend)
-- [Database](#database)
-- [Contributing](#contributing)
-- [License](#license)
+- [Features](#-features)
+- [Getting Started](#-getting-started)
+- [Backend](#-backend)
+- [Frontend](#-frontend)
+- [Database](#-database)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 OnePiecedle is a guessing game where players try to identify characters from the One Piece universe, inspired by the Wordle format. With each guess, hints are provided to help players figure out the correct character. Have fun testing your knowledge of the beloved series while challenging your friends!
 
