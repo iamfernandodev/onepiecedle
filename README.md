@@ -1,14 +1,9 @@
 # 🏴‍☠️ Onepiecedle
-- [Features](#-features)
-- [Getting Started](#-getting-started)
-- [Informations](#-informations)
-- [Contributing](#-contributing)
-
 OnePiecedle is a guessing game where players try to identify characters from the One Piece universe, inspired by the Wordle format. With each guess, hints are provided to help players figure out the correct character. Have fun testing your knowledge of the beloved series while challenging your friends!
 
 > **_NOTE:_**  This project is a challenge created purely for learning and practice. It is heavily inspired by the existing OnePiecedle game. You can check it out [here](https://onepiecedle.net/).
 
-![One Piece](https://i.imgur.com/dyGCPVb.gif)
+![One Piece](onepiecedle-view.png)
 
 ## 🚀 Features
 - Using TypeScript throughout the project
