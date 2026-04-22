@@ -9,17 +9,11 @@ OnePiecedle is a guessing game where players try to identify characters from the
 - Using TypeScript throughout the project
 - Visual hints based on previous guesses.
 - Interactive design with React and TailwindCSS.
-- Data storage using MongoDB.
+- Data storage using Simpl.db.
 
 ## 💫 Getting Started
 
 Follow the instructions below to set up the project locally.
-
-### Prerequisites
-
-- Node.js
-- npm or pnpm
-- MongoDB
 
 ### Installation
 
@@ -40,13 +34,7 @@ Follow the instructions below to set up the project locally.
     pnpm install
     ```
 
-3. Set up your MongoDB database and add the connection string to the .env file in the backend folder:
-
-    ```bash
-    MONGODB_URI=mongodb://your_url_to_onepiece_db
-    ```
-
-4. Run both frontend and backend:
+3. Run both frontend and backend:
 
     - Backend:
         ```bash
@@ -64,18 +52,8 @@ Follow the instructions below to set up the project locally.
 
 - Backend
     - **Framework:** Express
-    - **Database:** MongoDB
+    - **Database:** Simpl.db
 
 - Frontend
     - **Framework:** React
     - **Styling:** TailwindCSS
-
-## 🏆 Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests.
-
-1. Fork the project
-2. Create a feature branch: git checkout -b feature-name
-3. Commit your changes: git commit -m 'Add feature'
-4. Push to the branch: git push origin feature-name
-5. Open a pull request
