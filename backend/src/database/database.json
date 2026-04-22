@@ -1,0 +1,43 @@
+{
+   "configuration": {
+      "featuredCharacter": {
+         "name": "Marshall D. Teach (Barba Negra)",
+         "gender": "Masculino",
+         "affiliation": "Piratas do Barba Negra",
+         "akuma_no_mi": {
+            "name": "Yami Yami no Mi / Gura Gura no Mi",
+            "type": "Logia / Paramecia"
+         },
+         "haki": [
+            "Haki do Armamento",
+            "Haki da Observação"
+         ],
+         "bounty": 3996000000,
+         "height": 344,
+         "origin": "Jaya",
+         "first_appearance": "Capítulo 223 / Episódio 146",
+         "image": "barba_negra.jpg"
+      },
+      "updatedTimestamp": 1776828923139,
+      "previousCharacters": [
+         {
+            "name": "Marshall D. Teach (Barba Negra)",
+            "gender": "Masculino",
+            "affiliation": "Piratas do Barba Negra",
+            "akuma_no_mi": {
+               "name": "Yami Yami no Mi / Gura Gura no Mi",
+               "type": "Logia / Paramecia"
+            },
+            "haki": [
+               "Haki do Armamento",
+               "Haki da Observação"
+            ],
+            "bounty": 3996000000,
+            "height": 344,
+            "origin": "Jaya",
+            "first_appearance": "Capítulo 223 / Episódio 146",
+            "image": "barba_negra.jpg"
+         }
+      ]
+   }
+}

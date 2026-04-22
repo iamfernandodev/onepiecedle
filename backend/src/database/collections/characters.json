@@ -1,0 +1,920 @@
+[
+  {
+    "name": "Monkey D. Luffy",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Gomu Gomu no Mi / Hito Hito no Mi, Modelo: Nika",
+      "type": "Paramecia / Zoan Mítico"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 3000000000,
+    "height": 174,
+    "origin": "Romance Dawn",
+    "first_appearance": "Capítulo 1 / Episódio 1",
+    "image": "luffy.jpg"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 320000000,
+    "height": 181,
+    "origin": "Romance Dawn",
+    "first_appearance": "Capítulo 3 / Episódio 1",
+    "image": "zoro.jpg"
+  },
+  {
+    "name": "Nami",
+    "gender": "Feminino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [],
+    "bounty": 66000000,
+    "height": 170,
+    "origin": "Orange Town",
+    "first_appearance": "Capítulo 8 / Episódio 1",
+    "image": "nami.jpeg"
+  },
+  {
+    "name": "Usopp",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação"
+    ],
+    "bounty": 200000000,
+    "height": 176,
+    "origin": "Vila Syrup",
+    "first_appearance": "Capítulo 23 / Episódio 10",
+    "image": "usopp.jpg"
+  },
+  {
+    "name": "Sanji",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 330000000,
+    "height": 180,
+    "origin": "Baratie",
+    "first_appearance": "Capítulo 43 / Episódio 20",
+    "image": "sanji.jpg"
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Hito Hito no Mi",
+      "type": "Zoan"
+    },
+    "haki": [],
+    "bounty": 100,
+    "height": 90,
+    "origin": "Ilha Drum",
+    "first_appearance": "Capítulo 134 / Episódio 81",
+    "image": "chopper.jpg"
+  },
+  {
+    "name": "Nico Robin",
+    "gender": "Feminino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Hana Hana no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 130000000,
+    "height": 188,
+    "origin": "Whiskey Peak",
+    "first_appearance": "Capítulo 114 / Episódio 67",
+    "image": "robin.jpg"
+  },
+  {
+    "name": "Franky",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [],
+    "bounty": 94000000,
+    "height": 240,
+    "origin": "Water 7",
+    "first_appearance": "Capítulo 329 / Episódio 233",
+    "image": "franky.jpg"
+  },
+  {
+    "name": "Brook",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Yomi Yomi no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 83000000,
+    "height": 277,
+    "origin": "Thriller Bark",
+    "first_appearance": "Capítulo 442 / Episódio 337",
+    "image": "brook.jpg"
+  },
+  {
+    "name": "Jinbe",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Chapéu de Palha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 438000000,
+    "height": 301,
+    "origin": "Impel Down",
+    "first_appearance": "Capítulo 528 / Episódio 430",
+    "image": "jinbe.jpg"
+  },
+  {
+    "name": "Shanks",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Cabelo Vermelho",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 4048900000,
+    "height": 199,
+    "origin": "Romance Dawn",
+    "first_appearance": "Capítulo 1 / Episódio 4",
+    "image": "shanks.jpg"
+  },
+  {
+    "name": "Portgas D. Ace",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Barba Branca",
+    "akuma_no_mi": {
+      "name": "Mera Mera no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 550000000,
+    "height": 185,
+    "origin": "Ilha Drum",
+    "first_appearance": "Capítulo 154 / Episódio 91",
+    "image": "ace.jpg"
+  },
+  {
+    "name": "Trafalgar Law",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Coração",
+    "akuma_no_mi": {
+      "name": "Ope Ope no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 3000000000,
+    "height": 191,
+    "origin": "Arquipélago Sabaody",
+    "first_appearance": "Capítulo 498 / Episódio 392",
+    "image": "law.jpg"
+  },
+  {
+    "name": "Eustass Kid",
+    "gender": "Masculino",
+    "affiliation": "Piratas de Kid",
+    "akuma_no_mi": {
+      "name": "Jiki Jiki no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki do Armamento",
+      "Haki do Conquistador",
+      "Haki da Observação"
+    ],
+    "bounty": 3000000000,
+    "height": 205,
+    "origin": "Arquipélago Sabaody",
+    "first_appearance": "Capítulo 498 / Episódio 392",
+    "image": "kid.jpg"
+  },
+  {
+    "name": "Boa Hancock",
+    "gender": "Feminino",
+    "affiliation": "Piratas da Serpente",
+    "akuma_no_mi": {
+      "name": "Mero Mero no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 80000000,
+    "height": 191,
+    "origin": "Amazon Lily",
+    "first_appearance": "Capítulo 516 / Episódio 409",
+    "image": "hancock.jpg"
+  },
+  {
+    "name": "Silvers Rayleigh",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Roger",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 0,
+    "height": 188,
+    "origin": "Orange Town",
+    "first_appearance": "Capítulo 500 / Episódio 394",
+    "image": "rayleigh.jpg"
+  },
+  {
+    "name": "Emporio Ivankov",
+    "gender": "Masculino",
+    "affiliation": "Exército Revolucionário",
+    "akuma_no_mi": {
+      "name": "Horu Horu no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 100000000,
+    "height": 449,
+    "origin": "Impel Down",
+    "first_appearance": "Capítulo 537 / Episódio 438",
+    "image": "ivankov.jpg"
+  },
+  {
+    "name": "Sabo",
+    "gender": "Masculino",
+    "affiliation": "Exército Revolucionário",
+    "akuma_no_mi": {
+      "name": "Mera Mera no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 602000000,
+    "height": 187,
+    "origin": "Pós-Marineford",
+    "first_appearance": "Capítulo 583 / Episódio 494",
+    "image": "sabo.jpg"
+  },
+  {
+    "name": "Bon Clay",
+    "gender": "Masculino",
+    "affiliation": "Terreno Newkama",
+    "akuma_no_mi": {
+      "name": "Mane Mane no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 32000000,
+    "height": 238,
+    "origin": "Little Garden",
+    "first_appearance": "Capítulo 118 / Episódio 69",
+    "image": "bon_clay.jpg"
+  },
+  {
+    "name": "Nefertari Vivi",
+    "gender": "Feminino",
+    "affiliation": "Reino de Arabasta",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [],
+    "bounty": 0,
+    "height": 169,
+    "origin": "Reverse Mountain",
+    "first_appearance": "Capítulo 103 / Episódio 62",
+    "image": "vivi.jpg"
+  },
+  {
+    "name": "Marco",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Barba Branca",
+    "akuma_no_mi": {
+      "name": "Tori Tori no Mi, Modelo: Fênix",
+      "type": "Zoan Mítico"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 1374000000,
+    "height": 203,
+    "origin": "Jaya",
+    "first_appearance": "Capítulo 234 / Episódio 151",
+    "image": "marco.jpg"
+  },
+  {
+    "name": "Yamato",
+    "gender": "Feminino",
+    "affiliation": "Aliança Ninja-Pirata-Mink-Samurai",
+    "akuma_no_mi": {
+      "name": "Inu Inu no Mi, Modelo: Okuchi-no-Makami",
+      "type": "Zoan Mítico"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 0,
+    "height": 263,
+    "origin": "País de Wano",
+    "first_appearance": "Capítulo 971 / Episódio 973",
+    "image": "yamato.jpg"
+  },
+  {
+    "name": "Kozuki Momonosuke",
+    "gender": "Masculino",
+    "affiliation": "Clã Kozuki",
+    "akuma_no_mi": {
+      "name": "Uo Uo no Mi, Modelo: Seiryu (Artificial)",
+      "type": "Zoan Mítico"
+    },
+    "haki": [
+      "Haki da Observação"
+    ],
+    "bounty": 0,
+    "height": 110,
+    "origin": "Punk Hazard",
+    "first_appearance": "Capítulo 686 / Episódio 612",
+    "image": "momonosuke.jpg"
+  },
+  {
+    "name": "Kin'emon",
+    "gender": "Masculino",
+    "affiliation": "Clã Kozuki",
+    "akuma_no_mi": {
+      "name": "Fuku Fuku no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki do Armamento",
+      "Haki da Observação"
+    ],
+    "bounty": 0,
+    "height": 295,
+    "origin": "Punk Hazard",
+    "first_appearance": "Capítulo 657 / Episódio 581",
+    "image": "kinemon.jpg"
+  },
+  {
+    "name": "Capone Bege",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Tanque de Fogo",
+    "akuma_no_mi": {
+      "name": "Shiro Shiro no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 350000000,
+    "height": 166,
+    "origin": "Arquipélago Sabaody",
+    "first_appearance": "Capítulo 498 / Episódio 392",
+    "image": "bege.jpg"
+  },
+  {
+    "name": "Pedro",
+    "gender": "Masculino",
+    "affiliation": "Minks",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki do Armamento",
+      "Haki da Observação"
+    ],
+    "bounty": 382000000,
+    "height": 233,
+    "origin": "Zou",
+    "first_appearance": "Capítulo 651 / Episódio 573",
+    "image": "pedro.jpg"
+  },
+  {
+    "name": "Monkey D. Dragon",
+    "gender": "Masculino",
+    "affiliation": "Exército Revolucionário",
+    "akuma_no_mi": {
+      "name": "Desconhecida",
+      "type": "Desconhecido"
+    },
+    "haki": [],
+    "bounty": 0,
+    "height": 256,
+    "origin": "Loguetown",
+    "first_appearance": "Capítulo 100 / Episódio 52",
+    "image": "dragon.jpg"
+  },
+  {
+    "name": "Edward Newgate (Barba Branca)",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Barba Branca",
+    "akuma_no_mi": {
+      "name": "Gura Gura no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 5046000000,
+    "height": 666,
+    "origin": "Arabasta",
+    "first_appearance": "Capítulo 234 / Episódio 151",
+    "image": "barba_branca.jpg"
+  },
+  {
+    "name": "Marshall D. Teach (Barba Negra)",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Barba Negra",
+    "akuma_no_mi": {
+      "name": "Yami Yami no Mi / Gura Gura no Mi",
+      "type": "Logia / Paramecia"
+    },
+    "haki": [
+      "Haki do Armamento",
+      "Haki da Observação"
+    ],
+    "bounty": 3996000000,
+    "height": 344,
+    "origin": "Jaya",
+    "first_appearance": "Capítulo 223 / Episódio 146",
+    "image": "barba_negra.jpg"
+  },
+  {
+    "name": "Donquixote Doflamingo",
+    "gender": "Masculino",
+    "affiliation": "Piratas de Donquixote",
+    "akuma_no_mi": {
+      "name": "Ito Ito no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 340000000,
+    "height": 305,
+    "origin": "Jaya",
+    "first_appearance": "Capítulo 233 / Episódio 151",
+    "image": "doflamingo.jpg"
+  },
+  {
+    "name": "Crocodile",
+    "gender": "Masculino",
+    "affiliation": "Cross Guild",
+    "akuma_no_mi": {
+      "name": "Suna Suna no Mi",
+      "type": "Logia"
+    },
+    "haki": [],
+    "bounty": 1965000000,
+    "height": 253,
+    "origin": "Little Garden",
+    "first_appearance": "Capítulo 113 / Episódio 67",
+    "image": "crocodile.jpg"
+  },
+  {
+    "name": "Enel",
+    "gender": "Masculino",
+    "affiliation": "Automata",
+    "akuma_no_mi": {
+      "name": "Goro Goro no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki da Observação"
+    ],
+    "bounty": 0,
+    "height": 266,
+    "origin": "Skypiea",
+    "first_appearance": "Capítulo 254 / Episódio 167",
+    "image": "enel.jpg"
+  },
+  {
+    "name": "Rob Lucci",
+    "gender": "Masculino",
+    "affiliation": "CP0",
+    "akuma_no_mi": {
+      "name": "Neko Neko no Mi, Modelo: Leopardo",
+      "type": "Zoan"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 0,
+    "height": 212,
+    "origin": "Water 7",
+    "first_appearance": "Capítulo 323 / Episódio 230",
+    "image": "lucci.jpg"
+  },
+  {
+    "name": "Gecko Moria",
+    "gender": "Masculino",
+    "affiliation": "Piratas de Thriller Bark",
+    "akuma_no_mi": {
+      "name": "Kage Kage no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 320000000,
+    "height": 692,
+    "origin": "Thriller Bark",
+    "first_appearance": "Capítulo 449 / Episódio 343",
+    "image": "moria.jpg"
+  },
+  {
+    "name": "Charlotte Linlin (Big Mom)",
+    "gender": "Feminino",
+    "affiliation": "Piratas de Big Mom",
+    "akuma_no_mi": {
+      "name": "Soru Soru no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 4388000000,
+    "height": 880,
+    "origin": "Ilha dos Homens-Peixe",
+    "first_appearance": "Capítulo 651 / Episódio 571",
+    "image": "big_mom.jpg"
+  },
+  {
+    "name": "Charlotte Katakuri",
+    "gender": "Masculino",
+    "affiliation": "Piratas da Big Mom",
+    "akuma_no_mi": {
+      "name": "Mochi Mochi no Mi",
+      "type": "Paramecia Especial"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 1057000000,
+    "height": 509,
+    "origin": "Whole Cake",
+    "first_appearance": "Capítulo 651 / Episódio 871",
+    "image": "katakuri.jpg"
+  },
+  {
+    "name": "Kaido",
+    "gender": "Masculino",
+    "affiliation": "Piratas das Feras",
+    "akuma_no_mi": {
+      "name": "Uo Uo no Mi, Modelo: Seiryu",
+      "type": "Zoan Mítico"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 4611100000,
+    "height": 710,
+    "origin": "Dressrosa",
+    "first_appearance": "Capítulo 795 / Episódio 739",
+    "image": "kaido.jpg"
+  },
+  {
+    "name": "Kurozumi Orochi",
+    "gender": "Masculino",
+    "affiliation": "Shogunato de Wano",
+    "akuma_no_mi": {
+      "name": "Hebi Hebi no Mi, Modelo: Yamata no Orochi",
+      "type": "Zoan Mítico"
+    },
+    "haki": [],
+    "bounty": 0,
+    "height": 207,
+    "origin": "País de Wano",
+    "first_appearance": "Capítulo 729 / Episódio 661",
+    "image": "orochi.jpg"
+  },
+  {
+    "name": "Arlong",
+    "gender": "Masculino",
+    "affiliation": "Piratas de Arlong",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [],
+    "bounty": 20000000,
+    "height": 263,
+    "origin": "Arlong Park",
+    "first_appearance": "Capítulo 69 / Episódio 31",
+    "image": "arlong.jpg"
+  },
+  {
+    "name": "Bellamy",
+    "gender": "Masculino",
+    "affiliation": "Piratas Donquixote",
+    "akuma_no_mi": {
+      "name": "Bane Bane no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 195000000,
+    "height": 240,
+    "origin": "Jaya",
+    "first_appearance": "Capítulo 218 / Episódio 144",
+    "image": "bellamy.jpg"
+  },
+  {
+    "name": "Monkey D. Garp",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 0,
+    "height": 287,
+    "origin": "Arlong Park",
+    "first_appearance": "Capítulo 92 / Episódio 68",
+    "image": "garp.jpg"
+  },
+  {
+    "name": "Sengoku",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Hito Hito no Mi, Modelo: Daibutsu",
+      "type": "Zoan Mítico"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 0,
+    "height": 278,
+    "origin": "Jaya",
+    "first_appearance": "Capítulo 234 / Episódio 151",
+    "image": "sengoku.jpg"
+  },
+  {
+    "name": "Sakazuki (Akainu)",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Magu Magu no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 0,
+    "height": 306,
+    "origin": "Enies Lobby",
+    "first_appearance": "Capítulo 397 / Episódio 278",
+    "image": "akainu.jpg"
+  },
+  {
+    "name": "Kuzan (Aokiji)",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Barba Negra",
+    "akuma_no_mi": {
+      "name": "Hie Hie no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 0,
+    "height": 298,
+    "origin": "Davy Back Fight",
+    "first_appearance": "Capítulo 303 / Episódio 225",
+    "image": "aokiji.jpg"
+  },
+  {
+    "name": "Borsalino (Kizaru)",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Pika Pika no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 0,
+    "height": 302,
+    "origin": "Arquipélago Sabaody",
+    "first_appearance": "Capítulo 504 / Episódio 398",
+    "image": "kizaru.jpg"
+  },
+  {
+    "name": "Issho (Fujitora)",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Zushi Zushi no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 0,
+    "height": 270,
+    "origin": "Dressrosa",
+    "first_appearance": "Capítulo 701 / Episódio 630",
+    "image": "fujitora.jpg"
+  },
+  {
+    "name": "Smoker",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Moku Moku no Mi",
+      "type": "Logia"
+    },
+    "haki": [
+      "Haki do Armamento",
+      "Haki da Observação"
+    ],
+    "bounty": 0,
+    "height": 209,
+    "origin": "Loguetown",
+    "first_appearance": "Capítulo 96 / Episódio 48",
+    "image": "smoker.jpg"
+  },
+  {
+    "name": "Coby",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento"
+    ],
+    "bounty": 0,
+    "height": 167,
+    "origin": "Romance Down",
+    "first_appearance": "Capítulo 2 / Episódio 1",
+    "image": "coby.jpg"
+  },
+  {
+    "name": "Tashigi",
+    "gender": "Feminino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki do Armamento",
+      "Haki da Observação"
+    ],
+    "bounty": 0,
+    "height": 170,
+    "origin": "Loguetown",
+    "first_appearance": "Capítulo 96 / Episódio 48",
+    "image": "tashigi.jpg"
+  },
+  {
+    "name": "Bartholomew Kuma",
+    "gender": "Masculino",
+    "affiliation": "Exército Revolucionário",
+    "akuma_no_mi": {
+      "name": "Nikyu Nikyu no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [
+      "Haki do Armamento"
+    ],
+    "bounty": 296000000,
+    "height": 689,
+    "origin": "Jaya",
+    "first_appearance": "Capítulo 233 / Episódio 151",
+    "image": "kuma.jpg"
+  },
+  {
+    "name": "Spandam",
+    "gender": "Masculino",
+    "affiliation": "CP0",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [],
+    "bounty": 0,
+    "height": 192,
+    "origin": "Water 7",
+    "first_appearance": "Capítulo 323 / Episódio 230",
+    "image": "spandam.jpg"
+  },
+  {
+    "name": "Vegapunk",
+    "gender": "Masculino",
+    "affiliation": "Marinha",
+    "akuma_no_mi": {
+      "name": "Nomi Nomi no Mi",
+      "type": "Paramecia"
+    },
+    "haki": [],
+    "bounty": 0,
+    "height": 202,
+    "origin": "Egghead",
+    "first_appearance": "Capítulo 1061 / Episódio 1071",
+    "image": "vegapunk.jpg"
+  },
+  {
+    "name": "Gol D. Roger",
+    "gender": "Masculino",
+    "affiliation": "Piratas do Roger",
+    "akuma_no_mi": {
+      "name": "Nenhuma",
+      "type": "Nenhum"
+    },
+    "haki": [
+      "Haki da Observação",
+      "Haki do Armamento",
+      "Haki do Conquistador"
+    ],
+    "bounty": 5564800000,
+    "height": 274,
+    "origin": "Romance Dawn",
+    "first_appearance": "Capítulo 1 / Episódio 1",
+    "image": "roger.jpg"
+  }
+]

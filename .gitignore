@@ -1,0 +1,10 @@
+backend/node_modules/
+backend/package-lock.json
+backend/pnpm-lock.yaml
+backend/dist/
+backend/.env
+
+frontend/node_modules/
+frontend/dist/
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
