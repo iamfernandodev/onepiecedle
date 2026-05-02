@@ -44,7 +44,7 @@ export const getRandomCharacter = async ({ configuration }: GetRandomCharacterPr
   const count = await Character.countDocuments({ _id: { $nin: previousIds } });
   const random = ~~(Math.random() * count);
 
-  const character = await Character.findOne({ _id: { $nin: previousIds } }).skip(random);
+  const character = await Character.findOne({ _id: { $nin: previousIds } }).skip(random) as ICharacter;
 
   return character;
 }
