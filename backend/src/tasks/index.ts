@@ -3,7 +3,7 @@ import fs from 'fs';
 
 export default async function runTasks() {
     const tasks = fs.readdirSync(path.join(__dirname))
-        .filter(file => file != 'index.ts');
+        .filter(file => file !== 'index.js' && file !== 'index.ts');
 
     for (const task of tasks) {
         const taskPath = path.join(__dirname, task);
