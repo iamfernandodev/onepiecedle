@@ -8,7 +8,7 @@ import characterRoutes from './routes/characterRoutes';
 import configurationRoutes from './routes/configurationRoutes';
 
 connectDB();
-runTasks();
+/* runTasks(); */
 
 const app = express();
 
