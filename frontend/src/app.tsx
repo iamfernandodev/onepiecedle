@@ -10,6 +10,8 @@ import HelpMessage from './components/help-message';
 import Search from './components/search';
 import Tip from './components/tip-button';
 
+const backend = import.meta.env.VITE_BACKEND;
+
 export default function App() {
   const [configuration, setConfiguration] = useState<ConfigurationProps | null>(null);
   const [characters, setCharacters] = useState<Array<CharacterProps>>([]);
@@ -20,7 +22,7 @@ export default function App() {
 
   const getConfiguration = async () => {
     try {
-      const response = await fetch(`https://onepiecedle-production.up.railway.app/api/configuration`);
+      const response = await fetch(`${backend}/api/configuration`);
 
       if (!response.ok)
         throw new Error('Erro ao buscar os dados');

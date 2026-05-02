@@ -78,7 +78,7 @@ export function CharactersBodyItem({
             {type === 'avatar' ? (
                 <img
                     className="w-16 h-16 mx-auto rounded-md select-none"
-                    src={`./characters/${character.image}`}
+                    src={character.image}
                     alt={`Imagem de ${character.name}`}
                 />
             ) : (

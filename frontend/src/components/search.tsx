@@ -2,6 +2,8 @@ import { Search as SearchI } from 'lucide-react';
 import { Dispatch, SetStateAction, useEffect, useRef, useState } from 'react';
 import { CharacterProps } from '../types/character';
 
+const backend = import.meta.env.VITE_BACKEND;
+
 interface SearchProps {
     characters: CharacterProps[];
     winned: boolean;
@@ -59,7 +61,7 @@ export default function Search({ characters, winned, setCharacters }: SearchProp
     useEffect(() => {
         const handleSearchCharacters = async(search: string) => {
             try {
-                const response = await fetch(`https://onepiecedle-production.up.railway.app/api/characters?search=${search}`);
+                const response = await fetch(`${backend}/api/characters?search=${search}`);
     
                 if (!response.ok)
                 throw new Error('Erro ao buscar os dados');
@@ -109,7 +111,7 @@ export default function Search({ characters, winned, setCharacters }: SearchProp
                             onClick={() => handleSelectCharacter(character.name)}
                             className={`flex items-center space-x-3 p-2 cursor-pointer select-none text-black ${character.name === focused ? 'bg-zinc-200' : ''}`}
                         >
-                            <img src={`./characters/${character.image}`} alt="Avatar" className='size-10' />
+                            <img src={character.image} alt="Avatar" className='size-10' />
                             <p className='font-medium'>{character.name}</p>
                         </li>
                     ))}

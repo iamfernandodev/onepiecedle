@@ -33,7 +33,7 @@ export default function WinnedMessage({ characters, configuration }: WinnedMessa
                         <div className='bg-slate-100 w-full flex flex-col items-center gap-5 p-2'>
                             <div className="flex items-center space-x-5">
                                 <img
-                                    src={`./characters/${configuration.featuredCharacter.image}`}
+                                    src={configuration.featuredCharacter.image}
                                     alt={configuration.featuredCharacter.name}
                                     className="size-20 rounded"
                                 />

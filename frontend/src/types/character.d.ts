@@ -3,7 +3,7 @@ export interface AkumaNoMiProps {
     type: string;
 }
 
-export type Haki = 'Haki do Conquistador' | 'Haki do Armamento' | 'Haki da Observação';
+export type Haki = 'Haoshoku' | 'Busoshoku' | 'Kenbunshoku';
   
 export interface CharacterProps {
     _id: string,

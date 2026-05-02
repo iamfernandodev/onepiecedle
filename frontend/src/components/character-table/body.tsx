@@ -34,9 +34,9 @@ export function CharactersBody({ characters, featuredCharacter }: CharactersProp
     }
 
     const hakiUtils = {
-        ['Haki do Conquistador']: '👑',
-        ['Haki do Armamento']: '💪🏼',
-        ['Haki da Observação']: '👀'
+        ['Haoshoku']: '👑',
+        ['Busoshoku']: '💪🏼',
+        ['Kenbunshoku']: '👀'
     }
 
     return (
