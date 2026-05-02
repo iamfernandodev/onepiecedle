@@ -1,5 +1,4 @@
 import express from 'express';
-import dotenv from 'dotenv';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import connectDB from './database';
@@ -7,8 +6,6 @@ import runTasks from './tasks';
 
 import characterRoutes from './routes/characterRoutes';
 import configurationRoutes from './routes/configurationRoutes';
-
-dotenv.config();
 
 connectDB();
 runTasks();
