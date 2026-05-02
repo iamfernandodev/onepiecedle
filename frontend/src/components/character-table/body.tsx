@@ -1,4 +1,4 @@
-import { ReactElement } from "react";
+import { Dispatch, ReactElement, SetStateAction } from "react";
 import { CharacterProps, Haki } from "../../types/character";
 import { CharactersBodyItem } from "./body-item";
 import { compareArrays } from "../../utils/compareArrays";
@@ -8,6 +8,7 @@ import arcs from "../../utils/arcs";
 interface CharactersProps {
     characters: CharacterProps[];
     featuredCharacter: CharacterProps;
+    setWinned: Dispatch<SetStateAction<boolean>>;
 }
 
 export function CharactersBody({ characters, featuredCharacter }: CharactersProps) {
