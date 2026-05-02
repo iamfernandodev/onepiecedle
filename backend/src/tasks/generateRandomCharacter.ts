@@ -33,5 +33,5 @@ export default async () => {
                 previousCharacters
             }
         });
-    }, 1000 * 60 * 60 * 60)
+    }, 1000 * 60 * 60)
 }

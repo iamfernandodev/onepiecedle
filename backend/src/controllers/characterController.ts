@@ -10,7 +10,7 @@ export const createCharacter = async (req: Request, res: Response): Promise<void
   try {
     const character: ICharacter = new Character(req.body);
     await character.save();
-    
+
     res.status(201).json({ message: 'Character created', character });
   } catch (err) {
     const error = err as Error;
@@ -39,9 +39,12 @@ export const findCharacters = async (req: Request, res: Response): Promise<void>
 }
 
 export const getRandomCharacter = async ({ configuration }: GetRandomCharacterProps) => {
-  const allCharacters = await Character.find({ });
-  const availableCharacters = allCharacters.filter(c => !configuration.previousCharacters.includes(c));
-  const character = availableCharacters[~~(Math.random() * availableCharacters.length)];
+  const previousIds = configuration.previousCharacters.map(c => c._id);
+
+  const count = await Character.countDocuments({ _id: { $nin: previousIds } });
+  const random = ~~(Math.random() * count);
+
+  const character = await Character.findOne({ _id: { $nin: previousIds } }).skip(random);
 
   return character;
 }
