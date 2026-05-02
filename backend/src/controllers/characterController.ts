@@ -1,14 +1,14 @@
 import { Request, Response } from 'express';
-import { Character, Configuration } from '../types';
-import { Characters } from '../database';
+import Character, { ICharacter } from '../models/Character';
+import { IConfiguration } from '../models/Configuration';
 
 interface GetRandomCharacterProps {
-  configuration: Partial<Configuration>
+  configuration: IConfiguration
 }
 
-/* export const createCharacter = async (req: Request, res: Response): Promise<void> => {
+export const createCharacter = async (req: Request, res: Response): Promise<void> => {
   try {
-    const character: Character = new Character(req.body);
+    const character: ICharacter = new Character(req.body);
     await character.save();
     
     res.status(201).json({ message: 'Character created', character });
@@ -17,18 +17,18 @@ interface GetRandomCharacterProps {
 
     res.status(500).json({ message: error.message });
   }
-} */
+}
 
 export const findCharacters = async (req: Request, res: Response): Promise<void> => {
   try {
-    const value = req.query.search as string;
+    const value = req.query.search;
 
     if (!value) {
       res.status(400).json({ message: 'Invalid or missing \'search\' argument.' });
       return;
     }
 
-    const characters = Characters.fetchMany(c => c.name.toLocaleLowerCase().includes(value.toLowerCase()));
+    const characters = await Character.find({ name: { $regex: value, $options: 'i' } });
 
     res.status(200).json({ message: 'Successfully find characters.', characters });
   } catch (err) {
@@ -39,15 +39,9 @@ export const findCharacters = async (req: Request, res: Response): Promise<void>
 }
 
 export const getRandomCharacter = async ({ configuration }: GetRandomCharacterProps) => {
-  const allCharacters = Characters.getAll() as Character[];
+  const allCharacters = await Character.find({ });
+  const availableCharacters = allCharacters.filter(c => !configuration.previousCharacters.includes(c));
+  const character = availableCharacters[~~(Math.random() * availableCharacters.length)];
 
-  const previousCharacters = configuration.previousCharacters ?? [];
-
-  const availableCharacters = allCharacters.filter(
-    (c: Character) => !previousCharacters.includes(c)
-  );
-
-  return availableCharacters[
-    Math.floor(Math.random() * availableCharacters.length)
-  ];
+  return character;
 }

@@ -1,15 +1,14 @@
+import { config } from "dotenv";
 import { getRandomCharacter } from "../controllers/characterController";
-import { Configuration } from "../types";
-import { database } from "../database";
-
+import Configuration, { IConfiguration } from "../models/Configuration";
 import sendLog from "../utils/sendLog";
 
 export default async () => {
     setInterval(async () => {
-        const configuration = database.get('configuration') as Partial<Configuration>;
+        const configuration = await Configuration.findById('onepiecedle') as IConfiguration;
         const oneDay = 1000 * 60 * 60 * 24;
 
-        if (configuration.updatedTimestamp && Date.now() < configuration.updatedTimestamp)
+        if (Date.now() < configuration.updatedTimestamp)
             return;
 
         const randomCharacter = await getRandomCharacter({ configuration });
@@ -18,22 +17,21 @@ export default async () => {
             color: "cyan",
             message: `**${randomCharacter.name}** _was set as featured character_ ✨`
         });
-
+        
         const featuredCharacter = configuration.featuredCharacter;
         const previousCharacters = configuration.previousCharacters;
 
-        if (previousCharacters) {
-            if (previousCharacters.length > 7)
-                previousCharacters.pop();
+        if (previousCharacters.length > 7)
+            previousCharacters.pop();
 
-            if (featuredCharacter)
-                previousCharacters.unshift(featuredCharacter);
-        }
+        if (featuredCharacter) previousCharacters.unshift(featuredCharacter);
 
-        database.set('configuration', {
-            featuredCharacter: randomCharacter,
-            updatedTimestamp: Date.now() + oneDay,
-            previousCharacters: previousCharacters ?? []
-        } as any)
-    }, 1000 * 5)
+        await Configuration.findByIdAndUpdate('onepiecedle', {
+            $set: {
+                featuredCharacter: randomCharacter,
+                updatedTimestamp: Date.now() + oneDay,
+                previousCharacters
+            }
+        });
+    }, 1000 * 60)
 }

@@ -1,19 +1,16 @@
-import { Database } from 'simpl.db';
-import { Character } from './types';
+import mongoose from 'mongoose';
+import sendLog from './utils/sendLog';
 
-import path from 'path';
+export default async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI as string);
 
-const dataPath = process.env.DATABASE_PATH || path.join(__dirname, './database');
-
-const database = new Database({
-    dataFile: path.join(dataPath, 'database.json'),
-    collectionsFolder: path.join(dataPath, 'collections'),
-    tabSize: 3
-});
-
-const Characters = database.createCollection<Character>('characters');
-
-export {
-    database,
-    Characters
-}
+    sendLog({
+      color: "green",
+      message: "Database connected."
+    })
+  } catch (err) {
+    console.error(err);
+    process.exit(1);
+  }
+};

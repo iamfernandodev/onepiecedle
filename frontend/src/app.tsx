@@ -20,7 +20,7 @@ export default function App() {
 
   const getConfiguration = async () => {
     try {
-      const response = await fetch(`http://localhost:3000/api/configuration`);
+      const response = await fetch(`https://onepiecedle-production.up.railway.app/api/configuration`);
 
       if (!response.ok)
         throw new Error('Erro ao buscar os dados');

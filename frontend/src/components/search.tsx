@@ -59,7 +59,7 @@ export default function Search({ characters, winned, setCharacters }: SearchProp
     useEffect(() => {
         const handleSearchCharacters = async(search: string) => {
             try {
-                const response = await fetch(`http://localhost:3000/api/characters?search=${search}`);
+                const response = await fetch(`https://onepiecedle-production.up.railway.app/api/characters?search=${search}`);
     
                 if (!response.ok)
                 throw new Error('Erro ao buscar os dados');
