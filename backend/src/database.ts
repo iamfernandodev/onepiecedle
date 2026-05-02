@@ -3,7 +3,10 @@ import sendLog from './utils/sendLog';
 
 export default async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI as string);
+    await mongoose.connect(process.env.MONGO_URI as string, {
+      serverSelectionTimeoutMS: 5000,
+      connectTimeoutMS: 5000,
+    });
 
     sendLog({
       color: "green",
